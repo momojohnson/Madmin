@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.css" />
+  <link rel="stylesheet" href="./css/main.css">
+  <title>Madmin</title>
+</head>
+
+<body class="grey lighten-4">
+  <nav class="blue darken-2">
+    <div class="nav-wrapper">
+      <div class="container">
+        <a href="index.html" class="brand-logo">Madmin</a>
+        <a href="#" data-target="mobile-nav" class="sidenav-trigger show-on-large right"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="index.html">Dashboard</a></li>
+          <li><a href="posts.html">Posts</a></li>
+          <li><a href="categories.html">Categories</a></li>
+          <li class="active"><a href="comments.html">Comments</a></li>
+          <li><a href="users.html">Users</a></li>
+        </ul>
+        <ul id="mobile-nav" class="sidenav">
+          <li>
+            <div class="user-view">
+              <div class="background">
+                <img src="/img/ocean.jpg" alt="">
+              </div>
+              <a href="#user"><img class="circle" src="/img/person2.jpg"></a>
+              <a href="#name"><span class="white-text name">John Doe</span></a>
+              <a href="#email"><span class="white-text email">jdandturk@gmail.com</span></a>
+            </div>
+          </li>
+          <li><a href="index.html"><i class="material-icons">dashboard</i>Dashboard</a></li>
+          <li><a href="posts.html">Posts</a></li>
+          <li><a href="categories.html">Categories</a></li>
+          <li><a href="comments.html">Comments</a></li>
+          <li><a href="users.html">Users</a></li>
+          <li>
+            <div class="divider"></div>
+          </li>
+          <li><a class="subheader" href="">Account Controls</a></li>
+          <li><a href="login.html" class="wave-effect">Logout</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <section class="section section-posts grey lighten-4">
+    <div class="container">
+      <div class="row">
+        <div class="col s12">
+          <div class="card">
+            <div class="card-content">
+              <span class="card-title">Comments</span>
+              <table class="striped">
+                <tbody>
+                  <tr>
+                    <td style="width: 70">
+                      <img class="responsive-img circle" src="/img/person1.jpg" style="width:40px; margin-left:10px;"
+                        alt="">
+                    </td>
+                    <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe deserunt exercitationem
+                      placeat? Aspernatur, sequi sed.</td>
+                    <td><a href="#!" class="green-text"><i class="material-icons">done</i></a>
+                      <a href="#!" class="red-text"><i class="material-icons">close</i></a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="width: 70">
+                      <img class="responsive-img circle" src="/img/person2.jpg" style="width:40px; margin-left:10px;"
+                        alt="">
+                    </td>
+                    <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe deserunt exercitationem
+                      placeat? Aspernatur, sequi sed.</td>
+                    <td><a href="#!" class="green-text"><i class="material-icons">done</i></a>
+                      <a href="#!" class="red-text"><i class="material-icons">close</i></a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="width: 70">
+                      <img class="responsive-img circle" src="/img/person3.jpg" style="width:40px; margin-left:10px;"
+                        alt="">
+                    </td>
+                    <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe deserunt exercitationem
+                      placeat? Aspernatur, sequi sed.</td>
+                    <td><a href="#!" class="green-text"><i class="material-icons">done</i></a>
+                      <a href="#!" class="red-text"><i class="material-icons">close</i></a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="width: 70">
+                      <img class="responsive-img circle" src="/img/person4.jpg" style="width:40px; margin-left:10px;"
+                        alt="">
+                    </td>
+                    <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe deserunt exercitationem
+                      placeat? Aspernatur, sequi sed.</td>
+                    <td><a href="#!" class="green-text"><i class="material-icons">done</i></a>
+                      <a href="#!" class="red-text"><i class="material-icons">close</i></a>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="card-action">
+              <ul class="pagination">
+                <li class="disabled"><a href="#!"><i class="material-icons blue-text">chevron_left</i></a></li>
+                <li class="active blue"><a href="#!">1</a></li>
+                <li class="waves-effect"><a href="#!">2</a></li>
+                <li class="waves-effect"><a href="#!">3</a></li>
+                <li class="waves-effect"><a href="#!"><i class="material-icons blue-text">chevron_right</i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section: Footer -->
+  <footer class="section blue darken-2 white-text center">
+    <p>Madmin Panel copyright &copy; 2018</p>
+  </footer>
+
+  <!-- Preloader -->
+  <div class="loader preloader-wrapper big active">
+    <div class="spinner-layer spinner-blue-only">
+      <div class="circle-clipper left">
+        <div class="circle"></div>
+      </div>
+      <div class="gap-patch">
+        <div class="circle"></div>
+      </div>
+      <div class="circle-clipper right">
+        <div class="circle"></div>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.js"></script>
+  <script>
+    $(".section").hide();
+    setTimeout(function () {
+      $(document).ready(function () {
+        $(".section").fadeIn();
+        $(".loader").fadeOut();
+        $(".fixed-action-btn").floatingActionButton();
+        $(".modal").modal();
+        $(".sidenav").sidenav();
+      });
+    }, 1000)
+  </script>
+</body>
+
+</html>
